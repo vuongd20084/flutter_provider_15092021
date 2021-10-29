@@ -3,6 +3,7 @@ import 'package:flutter_provider_15092021/demo_basic_provider.dart';
 import 'package:flutter_provider_15092021/demo_changenotifier.dart';
 import 'package:flutter_provider_15092021/demo_future_provider.dart';
 import 'package:flutter_provider_15092021/demo_proxy_provider.dart';
+import 'package:flutter_provider_15092021/demo_stream_provider.dart';
 import 'package:flutter_provider_15092021/demo_valuelistenable_provider.dart';
 
 void main() {
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text("Demo Provider"),
         ),
-        body: DemoFutureProvider(),
+        body: DemoStreamProvider(),
       ),
     );
   }
